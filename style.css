@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 35px;
+}
+
+button {
+    display: block;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header,
+.content,
+.footer,
+.element-a,
+.element-b,
+.element-c,
+.element-d {
+    display: flex;
+}
+
+.header,
+.element-a,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    justify-content: space-evenly;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.content {
+    flex-direction: column;
+}
+
+.element-a {
+    padding: 30px;
+}
+
+.element-b {
+    flex-direction: column;
+    align-items: center;
+}
+
+.element-b-content {
+    display: flex;
+    max-width: 50%;
+    gap: 30px;
+}
+
+.b-image .text {
+    text-align: center;
+}
+
+.element-c {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #E5E7EB;
+}
+
+.element-c .text {
+    text-align: center;
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.element-c #author {
+    font-weight: bold;
+}
+
+.element-d {
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.element-d #container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    border-radius: 10px;
+    flex: 1;
+}
+
+#container .text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    text-align: center;
+    max-width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+#container .d-button {
+    display: flex;
+    border: #F9FAF8 solid;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    justify-content: center;
+    padding: 20px;
+}
