@@ -81,8 +81,8 @@ a {
 
 .a-right {
     display: flex;
-    max-height: 100vh;
-    max-width: 100vh;
+    max-height: 50vh;
+    max-width: 50vh;
 }
 
 .element-b {
@@ -94,6 +94,7 @@ a {
     display: flex;
     max-width: 50%;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 .b-image .text {
