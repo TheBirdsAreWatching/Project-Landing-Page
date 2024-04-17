@@ -14,26 +14,34 @@ body {
 }
 
 button {
-    display: block;
     background-color: #3382F6;
     color: #F9FAF8;
     border-style: none;
     border-radius: 10px;
     font-weight: bold;
-    padding: 5px 20px;
+    padding: 10px 20px;
     width: 100px;
+    text-wrap: nowrap;
 }
 
 img {
-    /* width: 100%;
+    width: 100%;
     height: auto;
-    /* min-height: 100%; */
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.top,
+.top-2,
+.cards-wrapper,
+.signup-wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .header {
@@ -44,21 +52,19 @@ a {
 
 .top {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 20px 0;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    margin-left: -200px
 }
 
 .nav-list {
     display: flex;
     list-style-type: none;
     gap: 50px;
-    align-items: center;
     font-size: 18px;
     font-weight: 300;
     color: #E5E7EB;
@@ -66,9 +72,8 @@ a {
 
 .top-2 {
     display: flex;
-    justify-content: center;
-    padding: 50px 0 100px 0px;
-    gap: 50px;
+    justify-content: space-around;
+    padding: 50px 0;
 }
 
 .top-2 .text {
@@ -76,7 +81,6 @@ a {
     flex-direction: column;
     gap: 50px;
     color: #F9FAF8;
-    text-align: left;
 }
 
 .top-2 h1 {
@@ -89,7 +93,7 @@ a {
 }
 
 .image-content {
-    width: 400px;
+    max-width: 400px;
 }
 
 .element-cards {
@@ -109,23 +113,15 @@ a {
     max-width: 200px;
 }
 
-.card-image {
-    max-width: 200px;
-}
-
 .element-quote {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #E5E7EB;
 }
 
 .quote-wrapper {
-    display: flex;
-    flex-direction: column;
-    /* width: 800px; */
-    width: 40%;
     padding: 100px 0;
+    width: 40%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .quote-text {
@@ -136,20 +132,16 @@ a {
 .quote-author {
     font-size: 14px;
     font-weight: bold;
-    text-align: right;
+    text-align: right
 }
 
 .element-signup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 100px 0;
 }
 
 .signup-wrapper {
     background: #3382F6;
     display: flex;
-    width: 40%;
     padding: 50px 0;
     border-radius: 20px;
     justify-content: space-evenly;
