@@ -25,9 +25,9 @@ button {
 }
 
 img {
-    /* width: 100%; */
-    /* height: 0; */
-    min-height: 100%;
+    /* width: 100%;
+    height: auto;
+    /* min-height: 100%; */
     border-radius: 30px;
 }
 
@@ -66,16 +66,15 @@ a {
 
 .top-2 {
     display: flex;
-    justify-content: space-evenly;
-    padding: 50px 0 100px 0;
+    justify-content: center;
+    padding: 50px 0 100px 0px;
+    gap: 50px;
 }
 
 .top-2 .text {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 400px;
-    justify-content: center;
+    gap: 50px;
     color: #F9FAF8;
     text-align: left;
 }
@@ -89,42 +88,29 @@ a {
     font-size: 18px;
 }
 
-.image-container {
-    display: flex;
-    justify-content: center;
-    ;
-}
-
 .image-content {
-    display: flex;
-    max-width: 50%;
-    /* width: 800px; */
+    width: 400px;
 }
 
 .element-cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 100px 0;
+    text-align: center;
 }
 
 .cards-wrapper {
     display: flex;
-    gap: 30px;
-    padding: 100px 0;
-    max-width: 50%;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
 }
 
 .cards {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     font-size: 18px;
-    align-items: center;
+    max-width: 200px;
 }
 
 .card-image {
-    width: 200px;
+    max-width: 200px;
 }
 
 .element-quote {
@@ -138,7 +124,7 @@ a {
     display: flex;
     flex-direction: column;
     /* width: 800px; */
-    width: 50%;
+    width: 40%;
     padding: 100px 0;
 }
 
@@ -163,7 +149,7 @@ a {
 .signup-wrapper {
     background: #3382F6;
     display: flex;
-    width: 50%;
+    width: 40%;
     padding: 50px 0;
     border-radius: 20px;
     justify-content: space-evenly;
