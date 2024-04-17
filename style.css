@@ -52,7 +52,7 @@ a {
 
 .top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px 0;
 }
 
@@ -72,7 +72,7 @@ a {
 
 .top-2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 50px 0;
 }
 
